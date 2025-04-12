@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<kml
+    xmlns="http://www.opengis.net/kml/2.2"
+    xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document>
+        <Name>摄像机的移动</Name>
+        <gx:Tour>
+            <name>My Tour</name>
+            <gx:Playlist>
+                <gx:FlyTo>
+                    <gx:duration>10</gx:duration>
+                    <!-- 飞行时间，单位为秒 -->
+                    <LookAt>
+                        <longitude>116.185</longitude>
+                        <!-- 目的地的经度 -->
+                        <latitude>39.76</latitude>
+                        <!-- 目的地的纬度 -->
+                        <altitude>0</altitude>
+                        <!-- 高度 -->
+                        <heading>0</heading>
+                        <!-- 视角的方向 -->
+                        <tilt>00</tilt>
+                        <!-- 视角的倾斜度 -->
+                        <range>3000</range>
+                        <!-- 相机与目标点的距离 -->
+                    </LookAt>
+                </gx:FlyTo>
+                <gx:FlyTo>
+                    <gx:duration>12</gx:duration>
+                    <!-- 飞行时间，单位为秒 -->
+                    <LookAt>
+                        <longitude>116.185</longitude>
+                        <!-- 目的地的经度 -->
+                        <latitude>39.76</latitude>
+                        <!-- 目的地的纬度 -->
+                        <altitude>0</altitude>
+                        <!-- 高度 -->
+                        <heading>90</heading>
+                        <!-- 视角的方向 -->
+                        <tilt>60</tilt>
+                        <!-- 视角的倾斜度 -->
+                        <range>1000</range>
+                        <!-- 相机与目标点的距离 -->
+                    </LookAt>
+                </gx:FlyTo>
+            </gx:Playlist>
+        </gx:Tour>
+    </Document>
+</kml>
