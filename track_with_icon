@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
+    <Document>
+        <name>Track with IconStyle Example 2</name>
+        <Style id="customTrackIconStyle">
+            <IconStyle>
+                <scale>1.5</scale>
+                <color>ff00ff00</color> <!-- 绿色，颜色格式为 aabbggrr -->
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Placemark>
+            <name>Custom Track</name>
+            <styleUrl>#customTrackIconStyle</styleUrl>
+            <gx:Track>
+                <!-- 随机生成的非共线坐标 -->
+                <when>2024-01-01T12:00:00Z</when>
+                <gx:coord>-122.364 37.81 -10</gx:coord>
+                <when>2024-01-01T12:01:00Z</when>
+                <gx:coord>-122.365 37.82 -10</gx:coord>
+                <when>2024-01-01T12:02:00Z</when>
+                <gx:coord>-122.366 37.815 -10</gx:coord>
+                <when>2024-01-01T12:03:00Z</when>
+                <gx:coord>-122.367 37.825 -10</gx:coord>
+                <when>2024-01-01T12:04:00Z</when>
+                <gx:coord>-122.368 37.812 -10</gx:coord>
+                <when>2024-01-01T12:05:00Z</when>
+                <gx:coord>-122.369 37.822 -10</gx:coord>
+                <when>2024-01-01T12:06:00Z</when>
+                <gx:coord>-122.37 37.818 -10</gx:coord>
+                <when>2024-01-01T12:07:00Z</when>
+                <gx:coord>-122.371 37.828 -10</gx:coord>
+                <when>2024-01-01T12:08:00Z</when>
+                <gx:coord>-122.372 37.816 -10</gx:coord>
+                <when>2024-01-01T12:09:00Z</when>
+                <gx:coord>-122.373 37.826 -10</gx:coord>
+                <when>2024-01-01T12:10:00Z</when>
+                <gx:coord>-122.374 37.814 -10</gx:coord>
+                <when>2024-01-01T12:11:00Z</when>
+                <gx:coord>-122.375 37.824 -10</gx:coord>
+                <when>2024-01-01T12:12:00Z</when>
+                <gx:coord>-122.376 37.817 -10</gx:coord>
+                <when>2024-01-01T12:13:00Z</when>
+                <gx:coord>-122.377 37.827 -10</gx:coord>
+                <when>2024-01-01T12:14:00Z</when>
+                <gx:coord>-122.378 37.813 -10</gx:coord>
+                <when>2024-01-01T12:15:00Z</when>
+                <gx:coord>-122.379 37.823 -10</gx:coord>
+                <when>2024-01-01T12:16:00Z</when>
+                <gx:coord>-122.38 37.819 -10</gx:coord>
+                <when>2024-01-01T12:17:00Z</when>
+                <gx:coord>-122.381 37.829 -10</gx:coord>
+                <when>2024-01-01T12:18:00Z</when>
+                <gx:coord>-122.382 37.811 -10</gx:coord>
+                <when>2024-01-01T12:19:00Z</when>
+                <gx:coord>-122.383 37.821 -10</gx:coord>
+                <when>2024-01-01T12:20:00Z</when>
+                <gx:coord>-122.384 37.815 -10</gx:coord>
+                <when>2024-01-01T12:21:00Z</when>
+                <gx:coord>-122.385 37.825 -10</gx:coord>
+                <when>2024-01-01T12:22:00Z</when>
+                <gx:coord>-122.386 37.812 -10</gx:coord>
+                <when>2024-01-01T12:23:00Z</when>
+                <gx:coord>-122.387 37.822 -10</gx:coord>
+                <when>2024-01-01T12:24:00Z</when>
+                <gx:coord>-122.388 37.818 -10</gx:coord>
+                <when>2024-01-01T12:25:00Z</when>
+                <gx:coord>-122.389 37.828 -10</gx:coord>
+                <when>2024-01-01T12:26:00Z</when>
+                <gx:coord>-122.39 37.816 -10</gx:coord>
+                <when>2024-01-01T12:27:00Z</when>
+                <gx:coord>-122.391 37.826 -10</gx:coord>
+                <when>2024-01-01T12:28:00Z</when>
+                <gx:coord>-122.392 37.814 -10</gx:coord>
+                <when>2024-01-01T12:29:00Z</when>
+                <gx:coord>-122.393 37.824 -10</gx:coord>
+                <when>2024-01-01T12:30:00Z</when>
+                <gx:coord>-122.394 37.817 -10</gx:coord>
+                <when>2024-01-01T12:31:00Z</when>
+                <gx:coord>-122.395 37.827 -10</gx:coord>
+                <when>2024-01-01T12:32:00Z</when>
+                <gx:coord>-122.396 37.813 -10</gx:coord>
+                <when>2024-01-01T12:33:00Z</when>
+                <gx:coord>-122.397 37.823 -10</gx:coord>
+                <when>2024-01-01T12:34:00Z</when>
+                <gx:coord>-122.398 37.819 -10</gx:coord>
+                <when>2024-01-01T12:35:00Z</when>
+                <gx:coord>-122.399 37.829 -10</gx:coord>
+                <when>2024-01-01T12:36:00Z</when>
+                <gx:coord>-122.4 37.811 -10</gx:coord>
+                <when>2024-01-01T12:37:00Z</when>
+                <gx:coord>-122.401 37.821 -10</gx:coord>
+                <when>2024-01-01T12:38:00Z</when>
+                <gx:coord>-122.402 37.815 -10</gx:coord>
+                <when>2024-01-01T12:39:00Z</when>
+                <gx:coord>-122.403 37.825 -10</gx:coord>
+                <when>2024-01-01T12:40:00Z</when>
+                <gx:coord>-122.404 37.812 -10</gx:coord>
+                <when>2024-01-01T12:41:00Z</when>
+                <gx:coord>-122.405 37.822 -10</gx:coord>
+                <when>2024-01-01T12:42:00Z</when>
+                <gx:coord>-122.406 37.818 -10</gx:coord>
+                <when>2024-01-01T12:43:00Z</when>
+                <gx:coord>-122.407 37.828 -10</gx:coord>
+                <when>2024-01-01T12:44:00Z</when>
+                <gx:coord>-122.408 37.816 -10</gx:coord>
+                <when>2024-01-01T12:45:00Z</when>
+                <gx:coord>-122.409 37.826 -10</gx:coord>
+                <when>2024-01-01T12:46:00Z</when>
+                <gx:coord>-122.41 37.814 -10</gx:coord>
+                <when>2024-01-01T12:47:00Z</when>
+                <gx:coord>-122.411 37.824 -10</gx:coord>
+                <when>2024-01-01T12:48:00Z</when>
+                <gx:coord>-122.412 37.817 -10</gx:coord>
+                <when>2024-01-01T12:49:00Z</when>
+                <gx:coord>-122.413 37.827 -10</gx:coord>
+            </gx:Track>
+        </Placemark>
+    </Document>
+</kml>
